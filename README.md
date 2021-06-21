@@ -1,4 +1,4 @@
-# Panel Demo
+# Panel Demo [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danwild/panel-demo/HEAD)
 
 A PyViz Panel demo for C3DIS.
 
