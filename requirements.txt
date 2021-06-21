@@ -1,0 +1,5 @@
+holoviews
+hvplot
+numpy
+pandas
+panel

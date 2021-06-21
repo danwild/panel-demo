@@ -1,0 +1,10 @@
+name: panel_app
+channels:
+  - default
+dependencies:
+  - holoviews
+  - hvplot
+  - numpy
+  - pandas
+  - pyviz::panel
+  - conda-forge::jupyterlab
