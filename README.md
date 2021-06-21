@@ -1,9 +1,11 @@
 # Panel Demo
----
 
-## Run: Docker
+A PyViz Panel demo for C3DIS.
+
+## Build, run: Docker
 
 ```shell
+make build
 make run # -> http://localhost:5006/panel_app
 ```
 
@@ -16,9 +18,9 @@ conda activate panel_demo
 
 ## Run: Conda 
 
-```
+```shell
 # Bokeh server:
-panel serve --show src/panel_app.py
+panel serve --show src/panel_app.py # -> http://localhost:5006/panel_app
 
 # Jupyter Lab:
 jupyter lab
