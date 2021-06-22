@@ -1,4 +1,4 @@
-# Panel Demo [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/danwild/panel-demo/main)
+# Panel Demo [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/danwild/panel-demo/binder)
 
 A PyViz [Panel](https://panel.holoviz.org/index.html) demo for C3DIS.
 
