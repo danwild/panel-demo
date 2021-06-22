@@ -3,9 +3,9 @@
 A PyViz [Panel](https://panel.holoviz.org/index.html) demo for C3DIS.
 
 Notebooks:
-- `bokeh_plot` - simple Bokeh plot example
-- `panel_plot` - example of integrating Bokeh with a Panel app
-- `panel_interactive` - example of Panel's declarative patterns for interactivity
+- `1_bokeh_plot` - simple Bokeh plot example
+- `2_panel_plot` - example of integrating Bokeh with a Panel app
+- `3_panel_interactive` - example of Panel's declarative patterns for interactivity
 
 ## Build, run: Docker
 
