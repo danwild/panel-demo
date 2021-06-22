@@ -1,6 +1,11 @@
-# Panel Demo [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danwild/panel-demo/HEAD)
+# Panel Demo [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/danwild/panel-demo/main)
 
 A PyViz Panel demo for C3DIS.
+
+Notebooks:
+- `bokeh_plot` - simple Bokeh plot example
+- `panel_plot` - example of integrating of Bokeh into a Panel app
+- `panel_interactive` - example of Panel's declarative patterns for interactivity
 
 ## Build, run: Docker
 

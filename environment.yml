@@ -1,4 +1,4 @@
-name: panel_app
+name: panel_demo
 channels:
   - default
 dependencies:
