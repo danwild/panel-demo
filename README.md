@@ -10,8 +10,10 @@ Notebooks:
 ## Build, run: Docker
 
 ```shell
+# see Makefile for cmd's if not using make
 make build
 make run # -> http://localhost:5006/panel_app
+make stop
 ```
 
 ## Install: Conda

@@ -9,13 +9,13 @@ from bokeh.models import ColumnDataSource, Slider, TextInput
 
 pn.extension()
 
-# DO DATA, SCIENCE
+# --------------- DO SCIENCE THINGS --------------- #
 N = 200
 x = np.linspace(0, 4*np.pi, N)
 y = np.sin(x)
 source = ColumnDataSource(data=dict(x=x, y=y))
 
-# DO PLOT
+# --------------- MAKE PLOT ----------------------- #
 plot = figure(
     plot_height=400, 
     plot_width=400, 
@@ -27,6 +27,9 @@ plot = figure(
 plot.line('x', 'y', source=source, line_width=3, line_alpha=0.6)
 
 class InputParams(param.Parameterized): 
+    """
+    https://panel.holoviz.org/user_guide/Param.html
+    """
     phase = param.Number(0.0, bounds=(0, 2 * np.pi), step=0.1)
     frequency = param.Number(1.0, bounds=(0, 5), step=0.1)
 
