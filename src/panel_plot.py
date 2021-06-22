@@ -13,9 +13,9 @@ pn.extension()
 N = 200
 x = np.linspace(0, 4*np.pi, N)
 y = np.sin(x)
-source = ColumnDataSource(data=dict(x=x, y=y))
 
 # --------------- MAKE PLOT ----------------------- #
+source = ColumnDataSource(data=dict(x=x, y=y))
 plot = figure(
     plot_height=400, 
     plot_width=400, 
