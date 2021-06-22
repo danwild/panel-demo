@@ -6,6 +6,7 @@ Notebooks:
 - `1_bokeh_plot` - simple Bokeh plot example
 - `2_panel_plot` - example of integrating Bokeh with a Panel app
 - `3_panel_interactive` - example of Panel's declarative patterns for interactivity
+- `4_panel_interactive` - move our logic to a python module
 
 ## Build, run: Docker
 

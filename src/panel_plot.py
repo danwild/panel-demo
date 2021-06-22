@@ -2,10 +2,8 @@ import panel as pn
 import numpy as np
 import pandas as pd
 import param
-import holoviews as hv
-from bokeh.plotting import figure, show
-from bokeh.layouts import column, row
-from bokeh.models import ColumnDataSource, Slider, TextInput
+from bokeh.plotting import figure
+from bokeh.models import ColumnDataSource
 
 pn.extension()
 
