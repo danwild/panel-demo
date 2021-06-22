@@ -7,4 +7,5 @@ dependencies:
   - numpy
   - pandas
   - pyviz::panel
+  - jupyter_bokeh
   - conda-forge::jupyterlab
