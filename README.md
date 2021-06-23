@@ -1,6 +1,10 @@
 # Panel Demo [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/danwild/panel-demo/main)
 
-A PyViz [Panel](https://panel.holoviz.org/index.html) demo for C3DIS.
+A PyViz [Panel](https://panel.holoviz.org/index.html) demo for C3DIS:
+
+[But can it do X? A software journey to be all things to all people, starring: Python, Jupyter, and Panel](http://www.c3dis.com/events/but-can-it-do-x-a-software-journey-to-be-all-things-to-all-people-starring-python-jupyter-and-panel)
+
+---
 
 Notebooks:
 - `1_bokeh_plot` - simple Bokeh plot example

@@ -6,13 +6,12 @@ import panel as pn
 from panel_plot import get_controls, get_plot
 
 pn.extension()
+pn.config.sizing_mode = 'stretch_width'
 
-# extends https://panel.holoviz.org/api/panel.template.html#panel.template.base.BasicTemplate
 bootstrap = pn.template.BootstrapTemplate(
     title='Panel Demo',
     header_background='#004B87'
 )
-pn.config.sizing_mode = 'stretch_width'
 
 bootstrap.sidebar.append(get_controls())
 bootstrap.main.append(get_plot())
