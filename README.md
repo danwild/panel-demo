@@ -12,15 +12,6 @@ Notebooks:
 - `3_panel_interactive` - example of Panel's declarative patterns for interactivity
 - `4_modularize` - move our logic to a python module
 
-## Build, run: Docker
-
-```shell
-# see Makefile for cmd's if not using make
-make build
-make run # -> http://localhost:5006/panel_app
-make stop
-```
-
 ## Install: Conda
 
 ```
@@ -36,6 +27,16 @@ panel serve --show src/panel_app.py # -> http://localhost:5006/panel_app
 
 # Jupyter Lab:
 jupyter lab
+```
+
+## Build, run: Docker
+Demo containerised bokeh server app only (i.e. no Jupyter).
+
+```shell
+# see Makefile for cmd's if not using make
+make build
+make run # -> http://localhost:5006/panel_app
+make stop
 ```
 
 ## Links
