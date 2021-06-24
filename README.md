@@ -38,3 +38,11 @@ panel serve --show src/panel_app.py # -> http://localhost:5006/panel_app
 jupyter lab
 ```
 
+## Links
+
+- [Panel's comparisons](https://panel.holoviz.org/about/comparisons.html)
+- [Stephen Kilcommins, Streamlit vs Dash vs Voilà vs Panel — Battle of The Python Dashboarding Giants](https://medium.datadriveninvestor.com/streamlit-vs-dash-vs-voil%C3%A0-vs-panel-battle-of-the-python-dashboarding-giants-177c40b9ea57)
+- [Jupyter Dashboarding — some thoughts on Voila, Panel and Dash](https://medium.com/informatics-lab/jupyter-dashboarding-some-thoughts-on-voila-panel-and-dash-b84df9c9482f)
+- [Original "Research Impact Pathway" graphic](https://www.nature.com/articles/s41467-019-12020-z)
+
+
